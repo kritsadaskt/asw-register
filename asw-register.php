@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name:       ASW Register
- * Plugin URI:        https://thetitle.co.th
+ * Plugin URI:        https://assetwise.co.th
  * Description:       Multi-form lead capture with UTM attribution, API posting, email notifications, and Excel/CSV export.
- * Version:           1.0.0
+ * Version:           1.5.0
  * Requires at least: 6.2
  * Requires PHP:      7.4
- * Author:            The Title
+ * Author:            AssetWise PLC
  * Text Domain:       asw-register
  * Domain Path:       /languages
  */

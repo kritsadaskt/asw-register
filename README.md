@@ -104,5 +104,5 @@ npm run watch:tw
 
 ## เครดิต
 
-- Author: The Title  
-- Plugin URI: https://thetitle.co.th
+- Author: AssetWise PLC
+- Plugin URI: https://assetwise.co.th
