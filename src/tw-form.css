@@ -1,0 +1,24 @@
+/**
+ * Tailwind v4.2 — lead form UI only (prefixed `aswr:` to avoid theme collisions).
+ * Preflight is omitted so global WP/theme styles are not reset on the page.
+ *
+ * Build: npm run build:tw
+ */
+
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme) prefix(aswr);
+@import "tailwindcss/utilities.css" layer(utilities) prefix(aswr);
+
+@source "../templates/**/*.php";
+@source "../includes/class-asw-reg-shortcode.php";
+
+@source "../assets/js/asw-reg-form.js";
+
+/* Classes used only inside JS template strings (showMessage). */
+@source inline("aswr:rounded-xl aswr:border aswr:px-4 aswr:py-3 aswr:text-sm aswr:leading-relaxed");
+@source inline("aswr:bg-emerald-50 aswr:border-emerald-200 aswr:text-emerald-900");
+@source inline("aswr:bg-red-50 aswr:border-red-200 aswr:text-red-900");
+
+/* Shortcode error (rendered only in PHP). */
+@source inline("aswr:rounded-lg aswr:border aswr:border-red-200 aswr:bg-red-50 aswr:px-3 aswr:py-2 aswr:text-sm aswr:text-red-800");

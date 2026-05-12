@@ -1,0 +1,168 @@
+/* ASW Register – Admin Styles */
+
+.asw-reg-wrap h1 { margin-bottom: 1rem; }
+
+/* Tabs */
+.asw-reg-tabs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0;
+	border-bottom: 1px solid #c3c4c7;
+	margin: 1.5rem 0 0;
+}
+
+.asw-reg-tab-btn {
+	padding: .5rem 1.25rem;
+	font-size: .875rem;
+	font-weight: 600;
+	background: none;
+	border: 1px solid transparent;
+	border-bottom: none;
+	cursor: pointer;
+	color: #2271b1;
+	margin-bottom: -1px;
+	border-radius: 4px 4px 0 0;
+}
+
+.asw-reg-tab-btn:hover,
+.asw-reg-tab-btn.is-active {
+	background: #fff;
+	border-color: #c3c4c7;
+	color: #1d2327;
+}
+
+.asw-reg-tab-panel {
+	display: none;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-top: none;
+	padding: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.asw-reg-tab-panel.is-active {
+	display: block;
+}
+
+/* Badges */
+.asw-reg-badge {
+	display: inline-block;
+	padding: .2em .6em;
+	font-size: .8rem;
+	font-weight: 600;
+	border-radius: 3px;
+	white-space: nowrap;
+}
+
+.asw-reg-badge--active   { background: #d1f0d7; color: #1a6627; }
+.asw-reg-badge--inactive { background: #f0f0f1; color: #50575e; }
+.asw-reg-badge--error,
+.asw-reg-badge--failed   { background: #fce4e4; color: #8a1f1f; }
+.asw-reg-badge--skip     { background: #e6f0fa; color: #0d3b6e; }
+
+/* Shortcode */
+.asw-reg-shortcode {
+	cursor: pointer;
+	user-select: all;
+	background: #f6f7f7;
+	padding: .2em .5em;
+	border-radius: 3px;
+	font-size: .85rem;
+}
+
+.asw-reg-shortcode-hint {
+	margin-bottom: 1rem;
+}
+
+/* Select2: inject page dropdown (form edit) */
+.asw-reg-wrap .select2-container--default .select2-selection--single {
+	min-height: 30px;
+	height: auto;
+}
+
+.asw-reg-wrap .select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 1.5;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+/* Fields table */
+.asw-reg-fields-table th,
+.asw-reg-fields-table td {
+	padding: .5rem .75rem;
+	vertical-align: middle;
+}
+
+/* API header rows */
+.asw-reg-header-row {
+	display: flex;
+	gap: .5rem;
+	align-items: center;
+	margin-bottom: .5rem;
+}
+
+.asw-reg-remove-header {
+	flex-shrink: 0;
+}
+
+/* Lead detail */
+.asw-reg-lead-detail h2 {
+	margin: 1.5rem 0 .5rem;
+	font-size: 1.1rem;
+}
+
+.asw-reg-pre {
+	white-space: pre-wrap;
+	word-break: break-all;
+	background: #f6f7f7;
+	padding: .5rem;
+	border-radius: 3px;
+	max-height: 200px;
+	overflow: auto;
+	margin: 0;
+}
+
+/* Drag-and-drop sortable */
+.asw-reg-drag-handle {
+	cursor: grab;
+	color: #999;
+	display: block;
+	text-align: center;
+}
+
+.asw-reg-drag-handle:active {
+	cursor: grabbing;
+}
+
+.asw-reg-sort-placeholder {
+	background: #f0f6fc;
+	border: 1px dashed #2271b1;
+	visibility: visible !important;
+}
+
+/* Custom field rows */
+.asw-reg-custom-row .asw-reg-cf-options {
+	width: 100%;
+	min-width: 180px;
+}
+
+.asw-reg-fields-table .asw-reg-cf-options-cell {
+	min-width: 200px;
+}
+
+/* Filters bar */
+.asw-reg-filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.asw-reg-filters select,
+.asw-reg-filters input[type="date"] {
+	height: 32px;
+	padding: 0 .5rem;
+	border: 1px solid #c3c4c7;
+	border-radius: 3px;
+}

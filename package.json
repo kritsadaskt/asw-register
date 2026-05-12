@@ -1,0 +1,12 @@
+{
+  "name": "asw-register",
+  "private": true,
+  "scripts": {
+    "build:tw": "npx @tailwindcss/cli -i ./src/tw-form.css -o ./assets/build/asw-reg-form-tw.css --minify",
+    "watch:tw": "npx @tailwindcss/cli -i ./src/tw-form.css -o ./assets/build/asw-reg-form-tw.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.2.0",
+    "tailwindcss": "4.2.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "thetitle/tt-lead-capture",
+    "description": "TT Lead Capture WordPress Plugin",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^2.3"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {}
+    }
+}
